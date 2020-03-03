@@ -22,10 +22,12 @@ Documentation Εργασίας.
 │  └──train.json
 │
 └──source                     # Project's source files and backups.
+│  │
 │  └──zografunk               # |
 │  └──andreas                 # |=> branch folders
 │  └──georgia                 # |
 │
-│  README.md
+│  README.md                  # Git front page
+│  requirements.txt           # Libraries used
 
 ```
