@@ -3,6 +3,9 @@ import re
 import glob
 from tqdm import tqdm
 
+import nltk
+from nltk.stem import WordNetLemmatizer
+
 
 # Configure
 DATA_PATH = '../data/'
@@ -22,4 +25,21 @@ for file in tqdm(files):
     # xx.csv
     SAVE_PATH = DATA_PATH + file.split('\\')[-1].split('.')[0] + '.csv'
 
-    df.to_csv(SAVE_PATH, index=False, sep=':')
+    # df.to_csv(SAVE_PATH, index=False, sep=':')
+
+
+# OR
+
+df = pd.read_json('../data/train.json',  dtype={'id': 'int64', 'cuisine': 'str', 'ingredients': 'str'})
+df = df[df.ingredients.str.len() > 1]
+
+df['ingredients'] = df.ingredients.str.lower()
+
+# Regex to match
+# reg = re.compile('(\[|\]|\'\d\%)')
+reg = re.compile('[^\w\s\,]')
+df.ingredients.replace(reg, '', inplace=True)
+
+lemmatizer = WordNetLemmatizer()
+train_df['seperated_ingredients'] = train_df.seperated_ingredients.apply(lambda x: ''.join([lemmatizer.lemmatize(w) for w in nltk.word_tokenize(x)]))
+print(train_df.shape)
