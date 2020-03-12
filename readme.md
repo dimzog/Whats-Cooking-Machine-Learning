@@ -2,7 +2,7 @@
 
 Documentation Εργασίας.
 
-Σύνολο Δεδομένων: ["What's Cooking?"](https://www.kaggle.com/c/whats-cooking-kernels-only/overview)
+Σύνολο Δεδομένων: ["What's Cooking?"](https://www.kaggle.com/c/whats-cooking/data)
 
 ## Contributors
 
@@ -15,17 +15,17 @@ Documentation Εργασίας.
 ## Project Structure
 
 ```
-~/Machine-Learning/
+~/Machine-Learning_03400042_03400050_03400062/
 │
 └──data
 │  └──test.json
 │  └──train.json
 │
-└──source                     # Project's source files and backups.
-│  │
-│  └──zografunk               # |
-│  └──andreas                 # |=> branch folders
-│  └──georgia                 # |
+│  Assignment.pdf             # Εκφώνηση Εργασίας
+│  Documentation.pdf          # Παρουσίαση
+│
+│  whatscooking.ipnyb         # Κώδικας της εργασίας
+│  whatscooking.html          # Jupyter σε html
 │
 │  README.md                  # Git front page
 │  requirements.txt           # Libraries used
