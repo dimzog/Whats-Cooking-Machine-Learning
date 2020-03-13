@@ -2,6 +2,8 @@
 .ipynb_checkpoints
 __pycache__
 
+images
+
 list_lr.txt
 list_dt.txt
 list_knn.txt
