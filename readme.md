@@ -12,7 +12,8 @@ Documentation Εργασίας.
 
 [Ανδρέας Μαστακούρης](https://github.com/AndreasMastakouris) (03400062) - ΕΔΕΜΜ.
 
-## Project Structure
+## Δομή Πρότζεκτ
+
 
 ```
 ~/Machine-Learning_03400042_03400050_03400062/
@@ -27,7 +28,7 @@ Documentation Εργασίας.
 │  whatscooking.ipnyb         # Κώδικας της εργασίας
 │  whatscooking.html          # Jupyter σε html
 │
-│  README.md                  # Git front page
-│  requirements.txt           # Libraries used
+│  README.md                  # Αρχική σελίδα του repo
+│  requirements.txt           # Βιβλιοθήκες που χρησιμοποίηθηκαν
 
 ```

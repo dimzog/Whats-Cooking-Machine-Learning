@@ -1,3 +1,8 @@
 .idea
 .ipynb_checkpoints
 __pycache__
+
+list_lr.txt
+list_dt.txt
+list_knn.txt
+list_rlf.txt
