@@ -8,9 +8,9 @@ Documentation Εργασίας.
 
 [Γεωργία Ανδριοσοπούλου](https://github.com/GeorgiaAndr22) (03400042) - ΕΔΕΜΜ.
 
-[Ανδρέας Μαστακούρης](https://github.com/AndreasMastakouris) (03400062) - ΕΔΕΜΜ.
-
 [Ζωγραφάκης Δημήτριος](https://github.com/dimzog) (03400050) - ΕΔΕΜΜ.
+
+[Ανδρέας Μαστακούρης](https://github.com/AndreasMastakouris) (03400062) - ΕΔΕΜΜ.
 
 ## Project Structure
 
